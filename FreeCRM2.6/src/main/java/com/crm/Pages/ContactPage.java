@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ContactPage extends Testbase{
 	
 	public void verifyApplicationContact() {
-		
+		System.out.println();
 	
 		WebDriverWait  wait=new WebDriverWait(driver,Duration.ofSeconds(15));
 		
